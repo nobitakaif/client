@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Re-live | Beyond relief...to an active life</title>
+
+  <!-- Bootstrap 5 -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"/>
+
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,400;0,600;0,700;1,400&display=swap" rel="stylesheet"/>
+
+  <link href="style2.css" rel="stylesheet"/>
+</head>
+<body>
+
+<!-- ══ NAVBAR ══ -->
+<header>
+  <nav class="relive-navbar" id="mainNav">
+
+    <div class="navbar-logo">
+      <!--
+        ★ Replace src with your logo file, e.g. src="assets/relive-logo.png"
+        The onerror shows a text fallback if the file is not found.
+      -->
+      <div>
+        <img
+        src="logo.png"
+        alt="Re-live – Beyond relief...to an active life"
+        id="logoImg"
+        onerror="document.getElementById('logoImg').style.display='none';
+                 document.getElementById('logoFb').style.display='flex';"
+      />
+      </div>
+      <div class="logo-fallback" id="logoFb" style="display:none;">
+        <span class="logo-fallback-name">Re-live</span>
+        <span class="logo-fallback-sub">Beyond relief...to an active life</span>
+      </div>
+    </div>
+
+    <button class="nav-toggler" id="navToggler" aria-label="Toggle navigation"
+            aria-expanded="false" aria-controls="navLinks">
+      <span></span><span></span><span></span>
+    </button>
+
+    <div class="nav-links-wrap" id="navLinks">
+      <ul class="nav-links">
+        <li><a href="#">Home</a></li>
+        <li><span class="nav-sep"></span></li>
+        <li><a href="#" class="active">About us</a></li>
+        <li><span class="nav-sep"></span></li>
+        <li><a href="#">Wellness Resource</a></li>
+        <li><span class="nav-sep"></span></li>
+        <li><a href="#">Contact us</a></li>
+      </ul>
+      <div class="nav-grid-dots" aria-label="More">
+        <span></span><span></span><span></span>
+        <span></span><span></span><span></span>
+        <span></span><span></span><span></span>
+      </div>
+    </div>
+
+  </nav>
+</header>
+
+<!-- ══ HERO ══ -->
+<section class="hero-section">
+  <!--
+    ★ Replace src with your hero image file, e.g. src="assets/hero-family.jpg"
+  -->
+  <img
+    class="hero-img"
+    src="main-pic.png"
+    alt="Grandfather, father and child joyfully jogging together outdoors"
+    id="heroImg"
+    onerror="document.getElementById('heroImg').style.display='none';
+             document.getElementById('heroFb').style.display='flex';"
+  />
+  <div class="hero-fallback" id="heroFb" style="display:none;">
+    <div class="hero-fallback-box">
+      📷 Place your hero image here<br/>
+      <small style="opacity:.7; margin-top:6px; display:block;">assets/hero-family.jpg</small>
+    </div>
+    <p class="hero-fallback-note">Family jogging outdoors — hero photograph</p>
+  </div>
+</section>
+
+<div class="sepration-border">
+
+</div>
+<!-- ══ CONTENT BAND ══ -->
+ 
+<section class="content-band position-relative">
+  
+   <img src="second.png" class="bubble" >
+   <img src="second.png" class="bubble2" >
+  
+  <div class="container-xl">
+
+    <p class="intro-text">
+      Pain that lingers, tingles, burns, or strikes like an electric shock—neuropathic pain is often invisible,
+      yet deeply felt. Many patients struggle to explain it, and even more struggle to manage it.
+    </p>
+
+    <strong class="hl-red">ReLive is designed to change that.</strong>
+
+    <p class="body-text">
+      This patient-centric campaign is built to bring clarity to confusion and comfort to those navigating
+      life with neuropathy. It goes beyond just explaining the condition—it helps patients truly understand
+      what their body is experiencing, validating their pain and encouraging them to seek the care they deserve.
+    </p>
+
+    <strong class="hl-red">But ReLive doesn't stop at awareness.</strong>
+
+    <p class="body-text">
+      It opens the door to a more holistic way of managing neuropathic pain by highlighting simple, everyday
+      changes that can make a meaningful difference. From mindful nutrition choices to gentle, consistent
+      movement, the campaign introduces non-pharmacological interventions that work alongside medical
+      treatment—helping patients regain a sense of control over their lives.
+    </p>
+
+    <div class="tagline-row">
+      <span>Because managing neuropathy isn't just about medication.</span><br/>
+      <span class="tagline-item">It's about reclaiming comfort.</span>
+      <span class="tagline-pipe">|</span>
+      <span class="tagline-item">It's about restoring balance.</span>
+      <span class="tagline-pipe">|</span>
+      <span class="tagline-item">It's about learning to ReLive.</span>
+    </div>
+
+  </div>
+</section>
+
+<!-- ══ FOOTER BAR ══ -->
+<footer class="footer-bar">
+  <!--
+    ★ Replace src with your Sun Pharma initiative logo, e.g. src="assets/sun-initiative.png"
+  -->
+  <img
+    class="sun-logo"
+    src="FooterLogo.png"
+    alt="An Initiative by Sun Pharma"
+    id="sunImg"
+    onerror="document.getElementById('sunImg').style.display='none';
+             document.getElementById('sunFb').style.display='flex';"
+  />
+  <div class="sun-fallback" id="sunFb" style="display:none;">
+    <div class="sun-circle">
+      <svg viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+        <circle cx="12" cy="12" r="4.5" fill="white"/>
+        <line x1="12" y1="1.5" x2="12" y2="4" stroke="white" stroke-width="1.8" stroke-linecap="round"/>
+        <line x1="12" y1="20" x2="12" y2="22.5" stroke="white" stroke-width="1.8" stroke-linecap="round"/>
+        <line x1="1.5" y1="12" x2="4" y2="12" stroke="white" stroke-width="1.8" stroke-linecap="round"/>
+        <line x1="20" y1="12" x2="22.5" y2="12" stroke="white" stroke-width="1.8" stroke-linecap="round"/>
+        <line x1="4.4" y1="4.4" x2="6.2" y2="6.2" stroke="white" stroke-width="1.8" stroke-linecap="round"/>
+        <line x1="17.8" y1="17.8" x2="19.6" y2="19.6" stroke="white" stroke-width="1.8" stroke-linecap="round"/>
+        <line x1="19.6" y1="4.4" x2="17.8" y2="6.2" stroke="white" stroke-width="1.8" stroke-linecap="round"/>
+        <line x1="6.2" y1="17.8" x2="4.4" y2="19.6" stroke="white" stroke-width="1.8" stroke-linecap="round"/>
+      </svg>
+    </div>
+    <div class="sun-label">
+      An Initiative by
+      <span>SUN PHARMA</span>
+    </div>
+  </div>
+</footer>
+
+<!-- Bootstrap JS -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+<script>
+  const toggler = document.getElementById('navToggler');
+  const navLinks = document.getElementById('navLinks');
+  toggler.addEventListener('click', () => {
+    const open = navLinks.classList.toggle('open');
+    toggler.setAttribute('aria-expanded', open);
+  });
+</script>
+
+</body>
+</html>
