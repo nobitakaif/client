@@ -38,6 +38,11 @@ body {
     height: 140px;
 }
 
+@media (max-width : 768px) {
+    #logoImg {
+        height: 80px;
+    }
+}
 
 .logo-fallback {
     display: flex;
@@ -64,8 +69,11 @@ body {
 
 .nav-links-wrap {
     display: flex;
+    width: auto;
+    justify-content: center;
     align-items: center;
     gap: 0;
+    padding-bottom: 60px;
 }
 
 .nav-links {
@@ -327,6 +335,9 @@ body {
     letter-spacing: 0.1em;
 }
 
+.nav-wrapper{
+    display : flex;  
+}
 
 @media (max-width: 991px) {
     .relive-navbar {
