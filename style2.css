@@ -73,7 +73,7 @@ body {
     justify-content: center;
     align-items: center;
     gap: 0;
-    padding-bottom: 60px;
+    padding-bottom: 50px;
 }
 
 .nav-links {
@@ -344,31 +344,47 @@ body {
         padding: 14px 24px;
     }
 
+    #logoImg {
+        height: 80px;
+    }
+
+    .nav-links-wrap{
+        padding-top: 18px;
+    }
+    
     .navbar-logo img {
         height: 72px;
     }
-
+    
     .nav-links a {
         font-size: 14px;
     }
+    
 }
 
 @media (max-width: 767px) {
 
     .relive-navbar {
-        position: relative;
         flex-wrap: wrap;
-        background: rgba(255, 255, 255, 0.97);
         padding: 12px 20px;
-        box-shadow: 0 1px 4px rgba(0, 0, 0, 0.08);
     }
 
     .navbar-logo img {
+        height: 60px; 
+    }
+
+    #logoImg {
         height: 60px;
+        position: absolute;
+        top: 18px;
+        left: 18px;
     }
 
     .nav-toggler {
         display: flex;
+        position: absolute;
+        right: 18px;
+        top: 18px;
     }
 
     .nav-links-wrap {
@@ -378,6 +394,7 @@ body {
         width: 100%;
         padding: 12px 0 4px;
         gap: 0;
+        font-size : 25px;
     }
 
     .nav-links-wrap.open {
@@ -389,6 +406,7 @@ body {
         align-items: flex-start;
         gap: 6px;
         width: 100%;
+        
     }
 
     .nav-sep {
@@ -442,6 +460,21 @@ body {
 }
 
 @media (max-width: 479px) {
+
+    .relive-navbar {
+        flex-wrap: wrap;
+        padding: 12px 20px;
+        width: 100%;
+        /* position: relative; */
+    }
+
+    #logoImg {
+        height: 45px;
+        /* width: 100%; */
+        position: absolute;
+        top: 12px;
+        left: 12px;
+    }
 
     .hero-section,
     .hero-fallback {
